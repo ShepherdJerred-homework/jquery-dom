@@ -1,0 +1,77 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="../standard.css" type="text/css">
+    <title>Comp 431: Homework</title>
+    <base target="_top"/>
+  </head>
+  <body>
+    <p>
+      Create an Express project which uses WebPack to create client files.
+      Add this file to your <code>static</code> directory.
+    </p>
+    <p>
+      <a href="email_list.html">http://cs.harding.edu/gfoust/classes/comp431/email_list.html</a>
+    </p>
+    <p>
+      Look at the HTML source.  Notice it includes a file
+      named <code>jquery.js</code> and a file
+      named <code>email_list.js</code>, both from the <code>/lib</code>
+      directory.  These files will be created by WebPack.  The
+      file <code>jquery.js</code> is the commons chunk for jQuery, and the
+      file <code>email_list.js</code> is the one you will write for this
+      assignment.
+    </p>
+    <p>
+      You may not make any changes to the HTML file.
+    </p>
+    <h3>Problems</h3>
+    <ol>
+      <li>
+        When the user submits the form (either by clicking on the
+        &ldquo;Add&rdquo; button or by pressing <kbd>Enter</kbd>) then you
+        should add a new row to the end of the table with
+        id <code>users</code> which contains the following three cells:
+        <ul>
+          <li>The value from the name text box</li>
+          <li>The value from the email text box</li>
+          <li>Three links (described below)</li>
+        </ul>
+      </li>
+      <li>
+        The three links should be as follows:
+        <ul>
+          <li>
+            An up-arrow link (<code>&amp;uarr;</code>)
+            with <code>class="up"</code>
+          </li>
+          <li>
+            A down-arrow link (<code>&amp;darr;</code>)
+            with <code>class="down"</code>
+          </li>
+          <li>
+            An delete link (<code>X</code>) with <code>class="rem"</code>
+          </li>
+        </ul>
+      </li>
+      <li>
+        When you click on the up-arrow link, the corresponding row should move
+        up by one in the table unless it is already at the top.
+      </li>
+      <li>
+        When you click on the down-arrow link, the corresponding row should
+        move down by one in the table unless it is already at the bottom.
+      </li>
+      <li>
+        When you click on the delete link, the corresponding row should be
+        removed from the table.
+      </li>
+    </ol>
+    <p>
+      Here is an example of what the table would look like after adding a few
+      rows to it.
+    </p>
+    <p>
+      <a href="jquery02_results.html">http://cs.harding.edu/gfoust/classes/comp431/jquery02_results.html</a>
+    </p>
+  </body>
+</html>
