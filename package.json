@@ -1,0 +1,24 @@
+{
+  "name": "jquery-dom",
+  "version": "1.0.0",
+  "description": "Practice using webpack and jQuery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShepherdJerred-homework/jquery-dom.git"
+  },
+  "author": "Jerred Shepherd",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/ShepherdJerred-homework/jquery-dom/issues"
+  },
+  "homepage": "https://github.com/ShepherdJerred-homework/jquery-dom#readme",
+  "devDependencies": {
+    "source-map-loader": "^0.2.3",
+    "uglifyjs-webpack-plugin": "^1.2.4",
+    "webpack": "^3.11.0"
+  }
+}
