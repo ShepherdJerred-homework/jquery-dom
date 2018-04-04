@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>jQuery Practice Homework</title>
+    <style>
+      #userform { margin-bottom: 1em; }
+      #users td { border: 1px solid black; width: 40ex; overflow: hidden; }
+      #users td:last-child { border: none; width: 12ex; padding-left: 1ex; word-spacing: 1ex; }
+      #users a { text-decoration: none; color: blue; }
+      #users a.rem { color: red; }
+      #users tr:first-child a.up { visibility: hidden; }
+      #users tr:last-child a.down { visibility: hidden; }
+    </style>
+    <script src="/lib/jquery.js"></script>
+    <script src="/lib/email_list.js"></script>
+  </head>
+  <body>
+    <form id="userform">
+      Name: <input type="text" id="name" autofocus/>
+      Email: <input type="text" id="email"/>
+      <input type="submit" value="Add"/>
+    </form>
+    <table id="users"></table>
+  </body>
+</html>
