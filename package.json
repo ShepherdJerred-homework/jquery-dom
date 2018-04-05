@@ -2,7 +2,7 @@
   "name": "jquery-dom",
   "version": "1.0.0",
   "description": "Practice using webpack and jQuery",
-  "main": "index.js",
+  "main": "npm run build",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --display-error-details",
