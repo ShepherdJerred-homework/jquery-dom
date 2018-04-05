@@ -159,3 +159,4 @@ typings/
 
 *.iml
 .idea/
+static/lib/
